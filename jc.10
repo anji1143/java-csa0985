@@ -1,0 +1,12 @@
+class TestAppletLifeCycle extends Applet {  
+public void init() {   
+}   
+public void start() {    
+}  
+public void paint(Graphics graphics) {  
+}  
+public void stop() {     
+}  
+public void destroy() {     
+}  
+}  
