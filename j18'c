@@ -1,0 +1,17 @@
+public  Constructorclass {
+
+    public static void main(String[] args) {
+
+        ConstructorClass emp1 = new ConstructorClass("Kevin", 20);
+    }
+}
+public class ConstructorClass 
+{
+    private String name;
+    private int number;
+ public ConstructorClass(String name, int number) {
+        this.name = name;
+        this.number = number;
+        System.out.println("called");
+    }
+}
